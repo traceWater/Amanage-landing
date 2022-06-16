@@ -1,0 +1,15 @@
+{
+  "name": "manage-landing",
+  "version": "1.0.0",
+  "description": "react landing page",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i src/input.css -o public/output.css --watch",
+    "minify": "npx tailwindcss -i src/input.css -o public/output.css --minify"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

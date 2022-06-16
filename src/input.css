@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=sans serief:wght@400;500;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobilemenu{
+    background-image: linear-gradient(to bottom, transparent, hsl(233, 12%, 13%));
+}
+.no-scroll{
+    overflow: hidden;
+}
+.show{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+ .btn{
+     @apply font-medium text-LightGray bg-brightRed shadow-lg shadow-shadowRed hover:bg-brightRedLight py-3 px-8 rounded-full;
+ }
+.red-bg{
+    background-color: hsl(12, 89%, 60%);
+}
+.error{
+    border: 2px solid hsl(12, 88%, 59%);
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(230, 45%, 45%); }
